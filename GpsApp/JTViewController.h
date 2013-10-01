@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface JTViewController : UIViewController
+@interface JTViewController : UIViewController <CLLocationManagerDelegate>
+
+- (void) setupGps;
 
 @end

@@ -22,6 +22,7 @@
 		529DB4C017FA7938008BE129 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529DB49F17FA7938008BE129 /* UIKit.framework */; };
 		529DB4C817FA7938008BE129 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 529DB4C617FA7938008BE129 /* InfoPlist.strings */; };
 		529DB4CA17FA7938008BE129 /* GpsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529DB4C917FA7938008BE129 /* GpsAppTests.m */; };
+		529DB4D417FA7CB8008BE129 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529DB4D317FA7CB8008BE129 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		529DB4C517FA7938008BE129 /* GpsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GpsAppTests-Info.plist"; sourceTree = "<group>"; };
 		529DB4C717FA7938008BE129 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		529DB4C917FA7938008BE129 /* GpsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GpsAppTests.m; sourceTree = "<group>"; };
+		529DB4D317FA7CB8008BE129 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529DB4D417FA7CB8008BE129 /* CoreLocation.framework in Frameworks */,
 				529DB49E17FA7938008BE129 /* CoreGraphics.framework in Frameworks */,
 				529DB4A017FA7938008BE129 /* UIKit.framework in Frameworks */,
 				529DB49C17FA7938008BE129 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		529DB49A17FA7938008BE129 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				529DB4D317FA7CB8008BE129 /* CoreLocation.framework */,
 				529DB49B17FA7938008BE129 /* Foundation.framework */,
 				529DB49D17FA7938008BE129 /* CoreGraphics.framework */,
 				529DB49F17FA7938008BE129 /* UIKit.framework */,
